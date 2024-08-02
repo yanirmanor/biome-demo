@@ -1,4 +1,4 @@
-# Rsbuild Project
+# Rsbuild Project instructions
 
 ## Setup
 
