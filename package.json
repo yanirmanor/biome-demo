@@ -1,0 +1,20 @@
+{
+  "name": "poc-lint",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@rsbuild/core": "1.0.1-beta.9",
+    "@rsbuild/plugin-react": "1.0.1-beta.9",
+    "lefthook": "^1.7.11"
+  }
+}
