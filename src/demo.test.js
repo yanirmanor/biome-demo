@@ -1,10 +1,9 @@
 import { expect, test } from "bun:test";
 
 test("2 + 2", () => {
-	expect(2 + 2).toBe(4);
+  expect(2 + 2).toBe(4);
 });
 
-test("dummy test", () => {
-	expect(true).toBe(true);
-}
-
+test("dummy test assertion", () => {
+  expect(true).toBe(true);
+});

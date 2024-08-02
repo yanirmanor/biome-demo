@@ -1,10 +1,11 @@
 pre-commit:
   parallel: true
   commands:
-    check:
-      glob: "./src/*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
+    lint:
       run: npm run biome:format
-    run-tests:
-      run: npm test
-      glob: "./src/*.{js,ts}"
+      include: "./src/**/*.{js,jsx,ts,tsx}"
+      exclude: "node_modules"
+    tests:
+      run: npm run test
+      include: "./src/**/*.{js,jsx,ts,tsx}"
       exclude: "node_modules"
